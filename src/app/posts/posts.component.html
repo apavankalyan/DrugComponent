@@ -1,0 +1,19 @@
+<div class="container">
+    <p class="postPara">
+        Posts works!
+    </p>      
+</div>
+<button (click)="getDrugs()">Get Drugs</button>
+<div *ngFor="let drug of drugs">
+  <app-drug [drug]="drug"></app-drug>
+</div>
+<button (click)="getPosts()">Get Posts</button>
+<div class="posts">
+  <h1>Posts</h1>
+  <ul class="postsList">
+    <li *ngFor="let post of posts" class="eachList">
+      {{post.title}}
+    </li>
+  </ul>
+</div>
+

@@ -1,0 +1,4 @@
+<div>
+    <h2 (click)="isHide = !isHide">{{drug.drugName}}</h2>
+    <p [hidden]=isHide>{{drug.ndc}} | {{drug.cost}} | {{drug.rxNumber}}</p>
+</div>

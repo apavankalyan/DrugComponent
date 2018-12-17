@@ -1,0 +1,30 @@
+.container{
+    background-color: gray;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-right: red 10px solid;
+}
+
+.postPara{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.posts{
+    background-color: grey;
+}
+
+.postsList{
+    list-style: none;
+    background-color: aqua;
+    margin: 15px;
+}
+
+.eachList{
+    border: rebeccapurple solid 2px;
+    padding: 5px;
+    margin: 10px;
+}
